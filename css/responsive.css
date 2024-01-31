@@ -1,0 +1,60 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.response-content-youtube i {
+    background-color: red;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+border: 4px solid green;}
+	
+
+
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+
+.our_home_mobile{
+	display:block;
+}
+
+.our_home_dsektop{
+	display:none;
+}
+
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.response-content-car i {
+    background-color: red;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+border: 4px solid green;}
+.response-content-home i {
+    background-color: red;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+border: 4px solid green;}
+	
+	
+}
+
+
+
+
+}

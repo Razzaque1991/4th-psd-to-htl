@@ -1,0 +1,262 @@
+ *{
+	 margin:0px;
+	 padding:0px;
+ }
+/* navber-start */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+/* bacground-moment */
+section#header {
+    background-image: url(img/winter.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-default .navbar-nav>li>a {
+    color: red;
+    text-transform: uppercase;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: yellow;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: red;
+    text-decoration: none;
+    background-color: green;
+    font-size: 25px;
+}
+.navbar-default .navbar-brand {
+    color: red;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: yellow;
+    background-color: transparent;
+}
+a.navbar-brand {
+    padding: 30px;
+    font-size: 50px;
+}
+
+/* baner section start */
+section#header {
+    padding: 60px;
+}
+
+.heading-baner {
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 40px;
+    border: 2px solid white;
+    color: white;
+}
+.carousel-control {
+    opacity: -1;
+}
+.carousel-control:hover, .carousel-control:focus {
+    opacity: -1;
+}
+	.carousel-indicators {
+    bottom: -15px;
+}
+.bottom-text {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 7px;
+	font-weight: bold;
+}
+.top-text {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 7px;
+	font-weight: bold;
+}
+.heading-baner span {
+    color:  red;
+    margin-left: 15px;
+    font-weight: bold;
+}
+/* baner section end   */
+/* navber-end   */
+
+/* about-us-start */
+section#about-us {
+    padding: 100px 0px;
+}
+.about-icon i {
+    font-size: 40px;
+    margin-top: 20px;
+}
+i.fa.fa-laptop:hover {
+    color: green;
+}i.fa.fa-home:hover {
+    color: green;
+}i.fa.fa-book:hover {
+    color: green;
+}
+i.fa.fa-windows:hover {
+    color: green;
+}
+/* about-us-end */
+/* service-strat */
+section#service {
+    background-color: grey;
+	padding: 50px 0px;
+}
+.service-img img {
+    display: inline-block;
+    width: 100%;
+	height: 300px;
+}
+.service-header {
+    color: white;
+}
+.service-img{
+	position:relative;
+	overflow:hidden;
+}
+.srevice-icon {
+    background-color: rgba(162,112,162,.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+	transition: 2s;
+}
+.service-img:hover .srevice-icon {
+	top:0px;
+}
+.srevice-icon ul {
+ display:flex;
+ padding:20px 5px;
+}
+.srevice-icon ul li{
+	list-style:none;
+}
+.srevice-icon ul li{
+	list-style:none;
+	color: white;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+i.fa.fa-search{
+    font-size: 30px;
+}
+i.fa.fa-google{
+font-size: 30px;	
+}
+i.fa.fa-laptop{
+font-size: 30px;	
+}
+i.fa.fa-youtube{
+font-size: 30px;	
+}
+i.fa.fa-facebook{
+font-size: 30px;	
+}
+i.fa.fa-camera{
+font-size: 30px;	
+}
+i.fa.fa-home{
+font-size: 30px;	
+}
+.service-img:hover .srevice-icon ul li{
+	list-style:none;
+	color: white;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+ 
+
+/* service-end */
+/* price-start*/
+section#price {
+    padding: 60px 0px;
+}
+.pricing-table {
+    background-color: black;
+    width: 42%;
+    border-radius: 10px;
+    height: 200px;
+    display: inline-block;
+    color: white;
+	margin-top: 25px;
+}
+.rate {
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 8px;
+    margin-top: 10px;
+}
+.pricing-table ul li {
+    list-style: none;
+    /* text-align: center; */
+    text-transform: capitalize;
+    border-bottom: 1px solid white;
+    margin-right: 35px;
+    padding: 0px -14px;
+    line-height: 20px;
+}
+.pricing-table:hover {
+    background-color: green;
+}
+.rate:hover {
+    background-color: white;
+    color: black;
+}
+/* price-end  */
+
+
+/* contract-strat */
+.contract-icon i {
+    display: inline-block;
+    font-size: 30px;
+}
+section#contarct {
+    padding: 80px 0px;
+}
+.contract-icon:hover i{
+    color: green;
+}
+ .contract-header:hover h3 {
+    color: green;
+}
+menu-bg{
+	background-color:red;
+}
+/* contract-end  */
+/* overlay-start  */
+ 
+.background-img-shadow img{
+   width:100%;
+   height:500px
+}
+/* overlay-end  */
+/* footer-start */
+section#footer {
+    background-color: black;
+    color: white;
+}
+span.name {
+    color: yellow;
+    padding: 10px;
+}
+
+/* footer-end  */
